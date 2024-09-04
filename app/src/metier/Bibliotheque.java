@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Bibliotheque {
-	private ArrayList<Document> documents = new ArrayList<>();
-	private HashMap<String, Document> indexDocuments = new HashMap<>();
+	private final  ArrayList<Document> documents = new ArrayList<>();
+	private final HashMap<String, Document> indexDocuments = new HashMap<>();
 
 	public void ajouterDocument(Document doc) {
 			if (indexDocuments.containsKey(doc.id)) {

@@ -9,8 +9,8 @@ import metier.Magazine;
 import util.DateUtils;
 
 public class ConsoleUI {
-	private static Scanner scanner = new Scanner(System.in) ;
-	private static Bibliotheque bibliotheque = new Bibliotheque();
+	private static final Scanner scanner = new Scanner(System.in) ;
+	private static final Bibliotheque bibliotheque = new Bibliotheque();
 	
 	public static void main (String[] args) {
 				int choix ;

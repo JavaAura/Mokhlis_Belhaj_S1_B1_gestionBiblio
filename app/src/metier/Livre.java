@@ -3,7 +3,7 @@ package metier;
 import java.time.LocalDate;
 
 public class Livre extends Document {
-    private   String isbn; 
+    private final  String isbn; 
 
     public Livre(String titre, String auteur, LocalDate datePublication, int nombreDePages) {
         super(titre, auteur, datePublication, nombreDePages);

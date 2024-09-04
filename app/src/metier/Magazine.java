@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class Magazine extends Document {
 	
-    private int numero;
+    private final  int numero;
 
 
 	public Magazine(String titre, String auteur, LocalDate datePublication, int nombreDePages, int numero) {
